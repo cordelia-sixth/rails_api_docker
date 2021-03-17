@@ -21,3 +21,5 @@ RUN apk update && \
     bundle install
 
 COPY . .
+
+EXPOSE 3000
